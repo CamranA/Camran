@@ -15,10 +15,11 @@ const config = {
 		// If your environment is not supported, or you settled on a specific environment, switch out the adapter.
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 		adapter: adapter({
-			pages: 'build', // Output directory for static files
-			assets: 'build', // Output directory for assets
-			fallback: null, // No fallback needed for static sites
-			precompress: false // Disable precompression for GitHub Pages
+			pages: 'build',
+			assets: 'build',
+			fallback: undefined,
+			precompress: false,
+			strict: true
 		}),
 		paths: {
 			base: dev ? '' : '/camran' // Set base for project pages
