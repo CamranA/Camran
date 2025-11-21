@@ -21,7 +21,7 @@ const config = {
 			precompress: false // Disable precompression for GitHub Pages
 		}),
 		paths: {
-			base: dev ? '' : '/Camran' // Set base for project pages
+			base: dev ? '' : '/camran' // Set base for project pages
 		}
 	}
 };
