@@ -17,7 +17,7 @@ const config = {
 		adapter: adapter({
 
 		}),
-		appDir: 'app',
+		appDir: 'app', //Jekyll on GH pages doesnt like default _app
 		paths: {
 			base: dev ? '' : '/Camran' // Set base for project pages
 		}
