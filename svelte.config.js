@@ -22,7 +22,7 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: dev ? '' : '/camran' // Set base for project pages
+			base: dev ? '' : '/Camran' // Set base for project pages
 		}
 	}
 };
