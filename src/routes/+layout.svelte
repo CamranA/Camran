@@ -34,7 +34,7 @@
 						>
 					</NavigationMenu.Item>
 					<NavigationMenu.Item>
-						<NavigationMenu.Link class="text-lg" href="/resume"
+						<NavigationMenu.Link class="text-lg" href="./resume"
 							>Resume</NavigationMenu.Link
 						>
 					</NavigationMenu.Item>
