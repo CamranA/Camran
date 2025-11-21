@@ -14,9 +14,14 @@ const config = {
 		// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.
 		// If your environment is not supported, or you settled on a specific environment, switch out the adapter.
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
-		adapter: adapter(),
+		adapter: adapter({
+			pages: 'build', // Output directory for static files
+			assets: 'build', // Output directory for assets
+			fallback: null, // No fallback needed for static sites
+			precompress: false // Disable precompression for GitHub Pages
+		}),
 		paths: {
-			base: dev ? '' : '/Camran',
+			base: dev ? '' : '/Camran' // Set base for project pages
 		}
 	}
 };
