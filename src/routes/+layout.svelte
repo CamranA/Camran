@@ -31,17 +31,23 @@
 >
 	<header class="header">
 		<div class="header-content">
-			<a class="main-icon" href="./"><Flame class="w-16 h-16"></Flame></a>
+			<a class="main-icon" aria-label="Home" href="./"
+				><Flame class="w-16 h-16"></Flame></a
+			>
 			<NavigationMenu.Root>
 				<NavigationMenu.List>
 					<NavigationMenu.Item>
-						<NavigationMenu.Link class="text-lg" href="./"
-							>Home</NavigationMenu.Link
+						<NavigationMenu.Link
+							class="text-lg"
+							aria-label="Home"
+							href="./">Home</NavigationMenu.Link
 						>
 					</NavigationMenu.Item>
 					<NavigationMenu.Item>
-						<NavigationMenu.Link class="text-lg" href="./resume"
-							>Resume</NavigationMenu.Link
+						<NavigationMenu.Link
+							class="text-lg"
+							aria-label="Resume"
+							href="./resume">Resume</NavigationMenu.Link
 						>
 					</NavigationMenu.Item>
 				</NavigationMenu.List>
