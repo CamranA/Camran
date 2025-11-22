@@ -1,6 +1,6 @@
 <script lang="ts">
 	import "./layout.css";
-	import favicon from "$lib/assets/favicon.svg";
+	import favicon from "$lib/assets/flame.svg";
 	import * as NavigationMenu from "$lib/components/ui/navigation-menu/index.js";
 	import { Flame, Braces } from "@lucide/svelte";
 	let { children } = $props();
@@ -13,7 +13,7 @@
 	<meta name="keywords" content="HTML, CSS, JavaScript" />
 	<meta name="author" content="Camran Ahmad" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="icon" href={favicon} />
+	<link rel="icon" style="color:red;" href={favicon} />
 </svelte:head>
 
 <!--
