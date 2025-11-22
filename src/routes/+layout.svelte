@@ -65,6 +65,7 @@
 				class="main-icon"
 				href="https://github.com/CamranA/"
 				target="_blank"
+				aria-label="GitHub"
 			>
 				<Braces class="w-8 h-8"></Braces>
 			</a>
