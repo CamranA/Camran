@@ -7,6 +7,12 @@
 </script>
 
 <svelte:head>
+	<title>Camran Ahmad</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Personal website of Camran Ahmad" />
+	<meta name="keywords" content="HTML, CSS, JavaScript" />
+	<meta name="author" content="Camran Ahmad" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
